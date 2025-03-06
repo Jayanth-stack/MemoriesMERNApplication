@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container, AppBar, Typography, Grow, Grid} from '@material-ui/core';
+import {Container, AppBar, Typography, Grow, Grid} from '@mui/material';
 import memories from './images/memories.png';
 import Posts from './components/posts/posts';
 import Form from './components/forms/forms';
@@ -27,4 +27,4 @@ const App = () => {
     );
 }
 
-export default App;
+export default App; 
