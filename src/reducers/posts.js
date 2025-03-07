@@ -1,16 +1,11 @@
-const reducer = (state, action) => {
+export default (posts =[], action) => {
     switch (action.type) {
-        case 'FETCH_POSTS':
-        return {
-            ...state,
-            posts: action.payload,
-        };
-        case 'CREATE_POST':
-        return {
-            ...state,
-            posts: [...state.posts, action.payload],
-        };
+        case 'FETCH_ALL':
+            return posts;
+            case 'CREATE':
+                return posts;
+            
         default:
-        return state;
+            break;
     }
 }
